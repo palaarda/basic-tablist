@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="tab">
+    <button class="tablinks" onclick="getCharacters(event, 'mando')">The Mandalorian</button>
+    <button class="tablinks" onclick="getCharacters(event, 'grogu')">Grogu</button>
+    <button class="tablinks" onclick="getCharacters(event, 'bo_katan')">Bo-Katan</button>
+</div>
+<div class="tabcontent-div">
+    <div id="mando" class="tabcontent">
+        <h3>The Mandalorian / Din Djarin</h3>
+        <p>Mandalorian, İmparatorluk'tan bir masum çocuğu korumak için kaçan bir ödül avcısı.
+            <br> Din Djarin, yolculuğuna başladığından beri önemli ölçüde gelişti, <br>
+            Mandaloryanlara evlerini geri kazandırdı ve Grogu'yu oğlu olarak benimsedi.</p>
+    </div>
+
+    <div id="grogu" class="tabcontent">
+        <h3>Grogu / The Child</h3>
+        <p>Başlangıçta The Child olarak bilinen ve sıkça Baby Yoda olarak anılan Grogu, <br>
+            efsanevi Jedi Ustası ile aynı türdendir ve eşit derecede uzun bir ömre sahiptir. <br>
+            Din Djarin'in onun ödülünün 50 yaşında olduğu söylendiğinde şaşırması, <br> 
+            Ödül Avcılar Birliği'ne ihanet etmesine ve Grogu'nun hayatını kurtarmasına neden oldu.</p> 
+    </div>
+
+    <div id="bo_katan" class="tabcontent">
+        <h3>Bo-Katan</h3>
+        <p>Gece Baykuşları lideri ve terörist bir grup olan Ölüm Gözcüleri'nin teğmeni olmuş, <br> sonradan İmparatorluk Devri'nde ise Mand'alor ünvanını almış dişi bir Mandalor insanıdır.</p>
+    </div>
+</div>    
+
+<script src="script.js"></script>
+</body>
+</html> 
